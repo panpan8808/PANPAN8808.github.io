@@ -1,7 +1,7 @@
 ---
 title: "내 첫 블로그 글 ✨"
 date: 2025-07-12 22:45:00 +0900
-categories: [블로그, 일상]
+categories: ["블로그", "일상"]
 tags: [Jekyll, 시작, Chirpy]
 ---
 
