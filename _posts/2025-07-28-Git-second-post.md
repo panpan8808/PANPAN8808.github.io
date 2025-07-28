@@ -62,6 +62,15 @@ git clone https://github.com/ita-bility/ita-bility.github.io
 ```
 </code></pre>
 
+```console
+C:\Users\kiyun>mkdir git
+C:\Users\kiyun>cd git
+C:\Users\kiyun\git>git clone https://github.com/ita-bility/ita-bility.github.io
+'git'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.
+```
+
+
+
 'git'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.
 git이 무슨 의미인지 모르겠다는 건데요, PC에 Git이 설치되어 있지 않아서 컴퓨터가 명령을 이해하지 못한 것입니다. 우선 Git을 설치해야겠네요.
 
