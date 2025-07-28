@@ -6,7 +6,7 @@ tags: [Jekyll, Chirpy]
 published: true
 ---
 
-여러 블로그를 참고해서 GitHub 블로그 만들기에 대한 여정을 담았습니다.
+> 여러 블로그를 참고해서 GitHub 블로그 만들기에 대한 여정을 담았습니다.
 > GitHub 블로그 만들기 
 > 겪은 시행착오와 해결법
 <!--more-->
@@ -16,8 +16,12 @@ published: true
 
 ## 1. **GitHub 회원가입하기**
 
-GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다.ee
-이메일과 비밀번호 등을 입력하고 나면 Launch code를 입력해야 합니다.
+GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다.
+
+![](/assets/img/2025-07-28/2025-07-28_signup.png)*우측 위 Sign up 클릭*
+
+이메일과 비밀번호 등을 입력하고 나면 Launch code를 입력해야 한다. 
+
 가입시 입력한 이메일의 받은 메일함에서 Launch code를 확인하셔서 입력하시고 간단한 설문조사를 마치고 나면 회원가입 완료! GitHub Sign up 절차는 언제봐도 깔끔하고 멋지네요.
 
 
@@ -108,6 +112,7 @@ git add -A
 
 2. 변경사항 확정
 
+## 2. **테마 넣기**
 
 ## 📌 블로그 특징
 - 무료로 운영 가능
