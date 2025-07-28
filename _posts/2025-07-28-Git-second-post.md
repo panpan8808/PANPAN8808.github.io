@@ -6,7 +6,7 @@ tags: [Jekyll, 시작, Chirpy]
 published: true
 ---
 
-Hi! This is my most devastating Github blog making post 👋  
+Hi! This is my most devastating Github blog making post 👋
 이 블로그는 GitHub Pages + Jekyll + Chirpy 테마로 만들어졌어요.
 
 앞으로 여기에 제가 배우는 것들, 개발 이야기, 일상 기록을 차곡차곡 쌓아갈 예정이에요.
@@ -18,11 +18,7 @@ Hi! This is my most devastating Github blog making post 👋
 1. GitHub 회원가입하기
 
 GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다.
-
-
 이메일과 비밀번호 등을 입력하고 나면 Launch code를 입력해야 합니다.
-
-
 가입시 입력한 이메일의 받은 메일함에서 Launch code를 확인하셔서 입력하시고 간단한 설문조사를 마치고 나면 회원가입 완료! GitHub Sign up 절차는 언제봐도 깔끔하고 멋지네요.
 
 
