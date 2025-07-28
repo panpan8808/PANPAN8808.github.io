@@ -16,7 +16,7 @@ published: true
 
 ## 1. **GitHub 회원가입하기**
 
-GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다.
+GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다.ee
 이메일과 비밀번호 등을 입력하고 나면 Launch code를 입력해야 합니다.
 가입시 입력한 이메일의 받은 메일함에서 Launch code를 확인하셔서 입력하시고 간단한 설문조사를 마치고 나면 회원가입 완료! GitHub Sign up 절차는 언제봐도 깔끔하고 멋지네요.
 
