@@ -1,10 +1,9 @@
 ---
 title: "2025년 기준 GitHub Pages + Chirpy 블로그 구축기 (실패와 해결 완전 정리)"
-date: 2025-07-28 15:45:00 +0900
+date: 2025-07-27 15:45:00 +0900
 categories: ["블로그", "일상"]
 tags: [Jekyll, 시작, Chirpy]
 published: true
-toc: true
 ---
 
 Hi! This is my most devastating Github blog making post 👋  
