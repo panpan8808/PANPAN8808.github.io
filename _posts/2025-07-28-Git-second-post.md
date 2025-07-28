@@ -1,21 +1,20 @@
 ---
-title: "2025년 기준 GitHub Pages + Chirpy 블로그 구축기 (실패와 해결 완전 정리)"
+title: "2025년 기준 GitHub 블로그 구축기 -1 (실패와 해결 완전 정리)"
 date: 2025-07-27 15:45:00 +0900
-categories: ["블로그", "일상"]
-tags: [Jekyll, 시작, Chirpy]
+categories: [Git, GitHub blog]
+tags: [Jekyll, Chirpy]
 published: true
 ---
 
-Hi! This is my most devastating Github blog making post 👋
-이 블로그는 GitHub Pages + Jekyll + Chirpy 테마로 만들어졌어요.
-
-앞으로 여기에 제가 배우는 것들, 개발 이야기, 일상 기록을 차곡차곡 쌓아갈 예정이에요.
+여러 블로그를 참고해서 GitHub 블로그 만들기에 대한 여정을 담았습니다.
+> GitHub 블로그 만들기 
+> 겪은 시행착오와 해결법
 <!--more-->
 
 ---
+# GitHub 설정
 
-
-1. GitHub 회원가입하기
+## 1. **GitHub 회원가입하기**
 
 GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다.
 이메일과 비밀번호 등을 입력하고 나면 Launch code를 입력해야 합니다.
@@ -23,7 +22,7 @@ GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다
 
 
 
-2. Repository(저장소) 생성하기
+## 2. **Repository(저장소) 생성하기**
 
 웹사이트의 소스 코드를 저장할 공간을 만들어 보겠습니다. R> [!WARNING]
 > [!WARNING]
@@ -34,8 +33,11 @@ epository는 프로젝트의 소스코드를 관리하기 위한 저장소입니
 
 Repository name : USERNAME.github.io를 입력합니다.
 > [!WARNING]
-> ??? 꼭 	•	이름은 꼭 **username.github.io**로 해야 함 (username은 네 깃허브 아이디와 동일해야 함)
-로 해야하는지???
+> 꼭 아래 조건을 지켜야 합니다:
+> - 이름은 꼭 **username.github.io** 형식이어야 합니다  
+> - `username`은 네 GitHub 아이디와 **정확히 일치**해야 합니다
+<!-- > ??? 꼭 	•	이름은 꼭 **username.github.io**로 해야 함 (username은 네 깃허브 아이디와 동일해야 함)
+로 해야하는지??? -->
 
 Public/Private : 저장소를 타인에게 공개할지 비공개할지 설정합니다. 여기서는 Public을 선택합니다.
 Add a README file : 저장소를 생성할 때 README.md 파일을 같이 만들지 여부입니다. 여기서는 ✅합니다.
@@ -43,18 +45,17 @@ Add a README file : 저장소를 생성할 때 README.md 파일을 같이 만들
 그 외 다른 설정들이 있으나 건드리지 않고 넘어가겠습니다. 화면 맨 아래 Create repository 버튼을 눌러 저장소를 생성합니다.
 
 
-3. Git clone 하기
+## 3. Git clone 하기
 저장소를 처음 만들면 README.md 파일만 덩그러니 있습니다. 이제 이 저장소에서 GitHub 블로그를 만드는데 필요한 코드를 관리할텐데요, 인터넷 환경보다는 본인의 PC에서 작업하는 게 더 편하기 때문에 원격 저장소와 로컬 PC를 연결하고 원격 저장소의 데이터를 로컬로 복사해오는 과정이 필요합니다. 이를 clone 이라고 합니다.
 
 
 GitHub 저장소 화면의 Code 버튼을 누르면 그림과 같이 지금 저장소의 데이터를 복사하기 위한 URL이 표시됩니다. URL을 복사하고 명령 프롬프트를 실행합니다.
-
-명령 프롬프트는 윈도우 키를 누르시고 cmd를 입력해 실행하실 수도 있습니다.
+> [!WARNING]
+> 명령 프롬프트는 윈도우 키를 누르시고 cmd를 입력해 실행하실 수도 있습니다.
 
 아마 C:\Users\사용자명> 처럼 표시될텐데, 저 경로의 폴더를 열어놓은 상태라고 이해하시면 됩니다. 여기서 화면에 컴퓨터가 이해할 수 있는 명령을 적으면 실행되는 것이죠.(이름이 명령 프롬프트인 이유!) git 폴더를 만들고 git clone 명령을 입력해 보겠습니다.
 
-<pre>
-<code>```bash
+<pre><code>```bash
 mkdir git
 cd git
 git clone https://github.com/ita-bility/ita-bility.github.io
