@@ -74,7 +74,6 @@ C:\Users\kiyun\git>git clone https://github.com/ita-bility/ita-bility.github.io
 ```
 
 
-
 'git'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.
 git이 무슨 의미인지 모르겠다는 건데요, PC에 Git이 설치되어 있지 않아서 컴퓨터가 명령을 이해하지 못한 것입니다. 우선 Git을 설치해야겠네요.
 
@@ -82,12 +81,17 @@ Git을 아직 설치하지 않으셨다면 여기를 참고하셔서 설치 후 
 
 git이 설치되어 있다면 아래와 같은 내용이 나올 겁니다.
 
+
+```console
 git clone https://github.com/ita-bility/ita-bility.github.io
 Cloning into 'ita-bility.github.io'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
+```
+
+
 그리고 해당 경로로 가보면 파일이 잘 복사되어 있는걸 확인할 수 있습니다.
 
 4. 로컬 Git에 새로운 파일 생성하기
@@ -97,18 +101,26 @@ Receiving objects: 100% (3/3), done.
 
 파일을 실행하면 웹브라우저에 Hello world가 떠있는 화면이 보이실 겁니다.
 
+
 5. GitHub에 수정사항 반영하기
 Hello world.html 파일을 만들었지만 로컬 PC에만 만들어졌을 뿐입니다. 작업한 내용을 GitHub에 저장하기 위해 아래 순서대로 진행해 보겠습니다.
+
 
 변경사항 저장
 변경사항 확정
 원격 저장소에 업로드
+
+
 1. 변경사항 저장
 변경사항을 저장하기 위해 명령 프롬프트로 돌아가 아래와 같이 입력합니다.
 
+```console
 cd ita-bility.github.io
 git add -A
 변경사항을 staging(저장을 확정하기 전 중간 단계)에 저장하되, 변경된 모든(-A, All) 내용을 저장한다는 명령어입니다.
+```
+
+
 
 2. 변경사항 확정
 
