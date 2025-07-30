@@ -18,7 +18,8 @@ published: true
 
 GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다.
 
-![](/assets/img/2025-07-28/2025-07-28_signup.png)*우측 위 Sign up 클릭*
+![우측 위 Sign up 클릭](https://github.com/PANPAN8808/PANPAN8808.github.io/blob/main/assets/image/2025-07-28/2025-07-28_signup.png?raw=true)
+*우측 위 Sign up 클릭*
 
 이메일과 비밀번호 등을 입력하고 나면 Launch code를 입력해야 한다. 
 
@@ -28,18 +29,18 @@ GitHub에서 Sign up for GitHub를 눌러 회원가입 절차를 시작합니다
 
 ## 2. **Repository(저장소) 생성하기**
 
-웹사이트의 소스 코드를 저장할 공간을 만들어 보겠습니다. R> [!WARNING]
-> [!WARNING]
-epository는 프로젝트의 소스코드를 관리하기 위한 저장소입니다.
+웹사이트의 소스 코드를 저장할 공간을 만들어 보겠습니다.
+Repository는 프로젝트의 소스코드를 관리하기 위한 저장소입니다.
 
 메인화면 좌측 상단의 Create repository를 클릭하고 각 항목을 아래와 같이 입력합니다.
 
 
 Repository name : USERNAME.github.io를 입력합니다.
-> [!WARNING]
 > 꼭 아래 조건을 지켜야 합니다:
 > - 이름은 꼭 **username.github.io** 형식이어야 합니다  
 > - `username`은 네 GitHub 아이디와 **정확히 일치**해야 합니다
+{: .prompt-danger }
+
 <!-- > ??? 꼭 	•	이름은 꼭 **username.github.io**로 해야 함 (username은 네 깃허브 아이디와 동일해야 함)
 로 해야하는지??? -->
 
